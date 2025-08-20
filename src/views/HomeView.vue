@@ -2,6 +2,7 @@
   <HeroSection2 />
   <About />
   <Services1 />
+  <Projects/>
   <ContactForm />
   <WhyUs />
   <OffshoreMap />

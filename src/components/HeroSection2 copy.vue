@@ -9,6 +9,7 @@
             </p>
             <RouterLink to="/kontakt" class="contact-button"> {{ langState.t.main.navbar.contact }}</RouterLink>
         </div>
+
         <div class="wave-divider">
             <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#fff"
@@ -106,12 +107,11 @@ import langState from '@/lang/langState'
 }
 
 @media (max-width: 768px) {
-    .wave-divider {
-        display: none;
-    }
-
-    .overlay {
-        height: 86.5%;
-    }
+ .wave-divider {
+    display: none;
+}
+.overlay {
+    height: 86.5%;
+}
 }
 </style>

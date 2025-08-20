@@ -181,6 +181,7 @@ export default {
 }
 
 .project-title {
+  margin-left: 1rem;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 6px;

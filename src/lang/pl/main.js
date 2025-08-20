@@ -51,7 +51,7 @@ export default {
       },
       {
         name: 'Serwis',
-        src: '/images/serwis.png',
+        src: '/images/serwis2.jpg',
         services: [
           { title: 'Inspekcje', description: 'Kontrola i ocena stanu technicznego urządzeń.' },
           { title: 'Rozwiązywanie usterek', description: 'Szybka diagnostyka i naprawa.' },
@@ -60,7 +60,7 @@ export default {
       },
       {
         name: 'Sprzedaż i logistyka',
-        src: '/images/sprzedaż-i-logistyka.png',
+        src: '/images/sprzedaz.jpg',
         services: [
           { title: 'Dostawy części', description: 'Komponenty OEM i zamienne.' },
           { title: 'Logistyka i transport', description: 'Globalna obsługa dostaw i spedycji.' },
@@ -76,10 +76,12 @@ export default {
     subtitle: 'Zobacz wybrane realizacje z całego świata.',
     projects: [
       {
-        title: 'Instalacja HPU',
-        description: 'Montaż hydraulicznej jednostki sterującej w środowisku offshore.',
-        location: 'Norwegia',
-        image: '/images/1.jpg'
+        title: 'Projekt MCG Gangway China',
+        description: `
+Od 2024 roku mamy przyjemność brać udział jako członek zespołu firmy MacGregor, przygotowującego konstrukcje takie, jak: GANGWAY (w tym także winda osobowa wewnątrz szybu) oraz COLIBRI CRANE zainstalowane na jednostce do obsługi farm wiatrowych, do finalnych odbiorów HAT i SAT. 
+Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`,
+        location: 'Chiny',
+        image: '/images/serwis2.jpg'
       },
       {
         title: 'Modernizacja platformy',

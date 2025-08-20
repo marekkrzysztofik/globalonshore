@@ -16,11 +16,29 @@ import Mission from '@/components/Mission.vue'
 import langState from '@/lang/langState'
 </script>
 <style scoped>
+.wave-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+  margin-bottom: -1px;
+  /* usuwa cienką linię */
+
+}
+
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .container {
   max-width: 1000px;
   display: flex;
-} 
+}
 
 .intro-section {
  background: rgba(255, 255, 255, 1);
@@ -31,7 +49,7 @@ import langState from '@/lang/langState'
   margin-top: -50px;
   color: var(--title);
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 0 1.5rem;
   position: relative;
   overflow: hidden;
   z-index: 3;
