@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary: #D13C30;
+  --primary: #0076ce;
+  /* --primary: #1a3158; */
   --redtitle: #1a1a1a;
   --title: #1a1a1a;
   --subtitle: #666666;
@@ -18,7 +19,7 @@
   margin: 0;
   padding: 0;
   font-family: "Titillium Web", sans-serif;
-  
+
   /*
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif; */
@@ -28,7 +29,14 @@ body {
   color: #000;
 }
 
-
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 .flex {
   display: flex;
@@ -46,6 +54,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* .app {
   margin: 0;
   background: linear-gradient(to right,

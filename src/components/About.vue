@@ -2,7 +2,7 @@
   <section class="intro-section">
     <div class="container">
       <div class="content">
-        <h2>{{ langState.t.main.aboutTitle }}</h2>
+        <h2 class="section-title">{{ langState.t.main.aboutTitle }}</h2>
         <p>
           {{ langState.t.main.aboutSubtitle }}
         </p>
@@ -16,19 +16,18 @@ import Mission from '@/components/Mission.vue'
 import langState from '@/lang/langState'
 </script>
 <style scoped>
-
 .container {
   max-width: 1000px;
   display: flex;
-} 
+}
 
 .intro-section {
- background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: -50px;
+  margin: 6rem auto;
   color: var(--title);
   text-align: center;
   padding: 2rem 1.5rem;
@@ -85,8 +84,8 @@ import langState from '@/lang/langState'
 }
 
 @media (max-width: 768px) {
- .intro-section {
+  .intro-section {
     margin-top: 1rem;
-}
+  }
 }
 </style>

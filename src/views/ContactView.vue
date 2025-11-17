@@ -81,12 +81,6 @@ if (typeof localStorage !== 'undefined') {
   text-align: center;
 }
 
-.section-title {
-  font-size: 2rem;
-  color: var(--redtitle);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
 
 .section-subtitle {
   font-size: 1.1rem;
@@ -100,7 +94,6 @@ if (typeof localStorage !== 'undefined') {
   gap: 2rem;
   margin: 0 auto;
 }
-
 
 
 .info-column {
@@ -123,7 +116,7 @@ if (typeof localStorage !== 'undefined') {
 .info-tile .icon {
   width: 28px;
   height: 28px;
-  color: #d63830;
+  color: var(--primary);
   flex-shrink: 0;
   margin-top: 4px;
 }

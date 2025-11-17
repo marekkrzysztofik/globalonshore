@@ -115,12 +115,7 @@ export default {
   overflow: hidden;
 }
 
-.section-title {
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--redtitle);
-}
+
 
 .section-subtitle {
   font-size: 18px;
@@ -190,7 +185,7 @@ export default {
 
 .project-location {
   font-size: 14px;
-  color: #d63830;
+  color: var(--primary);
   margin-bottom: 10px;
 }
 

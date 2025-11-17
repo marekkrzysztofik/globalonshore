@@ -89,14 +89,14 @@ onMounted(() => {
 
   polygonSeries.mapPolygons.template.setAll({
     tooltipText: "{name}",
-    interactive: true,
+    interactive: true, 
     fill: am5.color("#e0e0e0"),
-    stroke: am5.color("#999"),
+    stroke: am5.color("#0076ce"),
     strokeWidth: 0.3
   });
 
   polygonSeries.mapPolygons.template.states.create("hover", {
-    fill: am5.color("#d63830"),
+    fill: am5.color("#0076ce"),
     fillOpacity: 0.3
   });
   const pointSeries = chart.series.push(
@@ -111,7 +111,7 @@ onMounted(() => {
       radius: 6,
       tooltipText: "{title}",
       tooltipY: 0,
-      fill: am5.color("#d63830"),
+      fill: am5.color("#0076ce"),
       stroke: am5.color("#ffffff"),
       strokeWidth: 2
     });
@@ -136,12 +136,6 @@ onBeforeUnmount(() => {
   text-align: center;
 }
 
-.section-title {
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--redtitle);
-}
 
 .section-subtitle {
   font-size: 1.1rem;

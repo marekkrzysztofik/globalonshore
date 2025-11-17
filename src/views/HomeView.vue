@@ -1,8 +1,7 @@
 <template>
   <HeroSection2 />
   <About />
-  <Services1 />
-  <Projects/>
+  <Services2 />
   <ContactForm />
   <WhyUs />
   <OffshoreMap />
@@ -13,6 +12,7 @@ export const prerender = true
 <script setup>
 import HeroSection2 from '@/components/HeroSection2.vue'
 import Services1 from '@/components/Services1.vue'
+import Services2 from '@/components/Services2.vue'
 import WhyUs from '@/components/WhyUs.vue'
 import OffshoreMap from '@/components/OffshoreMap.vue'
 import ContactForm from '@/components/ContactForm.vue'
@@ -21,7 +21,7 @@ import Projects from '@/components/Projects.vue'
 import { useHead } from '@vueuse/head'
 import { useRoute } from 'vue-router'
 import { onMounted, nextTick } from 'vue'
-import About from '@/components/About.vue'
+import About from '@/components/About.vue' 
 
 const route = useRoute()
 onMounted(async () => {
@@ -35,7 +35,7 @@ onMounted(async () => {
 })
 
 useHead({
-  title: 'Global Offshore – hydraulika siłowa i wsparcie projektów offshore',
+  title: 'Global Onshore – hydraulika siłowa i wsparcie projektów offshore',
   meta: [
     { name: 'description', content: "Specjalizujemy się w instalacjach offshore, hydraulice siłowej oraz sprzedaży części i komponentów. Kompleksowe wsparcie projektów – sprawdź naszą ofertę." },
     { name: 'keywords', content: 'hydraulika siłowa, offshore, serwis, instalacje, projekty, global offshore' },

@@ -24,7 +24,7 @@
                         <MapPin class="icon" /> Gniewowska 12, 84-240 Reda
                     </li>
                     <li>
-                        <Mail class="icon" /> contact@globaloffshore.pl
+                        <Mail class="icon" /> contact@globalonshore.pl
                     </li>
                     <li>
                         <Phone class="icon" /> +48 888 293 024 - {{ langState.t.main.production }}
@@ -35,7 +35,7 @@
                 </ul>
             </div>
 
-            <!-- FORM CARD -->
+         
 
         </div>
     </section>
@@ -45,11 +45,11 @@
 import { ref, onMounted } from 'vue'
 import { Mail, Phone, MapPin } from 'lucide-vue-next'
 import langState from '@/lang/langState'
-// reactive states for animation
+
 const infoVisible = ref(false)
 const formVisible = ref(false)
 
-// simple directive for IntersectionObserver
+
 const vIntersect = {
     mounted(el, binding) {
         const observer = new IntersectionObserver(([entry]) => {
@@ -112,7 +112,6 @@ const submitForm = async () => {
     align-items: center;
 }
 
-
 .info-card {
     display: flex;
     flex-direction: column;
@@ -137,7 +136,7 @@ const submitForm = async () => {
 }
 
 .info-card h2 {
-    color: #d63830;
+    color: var(--primary);
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 2px;
@@ -166,7 +165,7 @@ const submitForm = async () => {
     height: 420px;
     transition: all 0.6s ease;
     width: 80%;
-    background-color: rgba(209, 60, 48, 1);
+    background-color: var(--primary);
     padding: 40px 40px;
     border-radius: 20px;
     color: white;
@@ -245,7 +244,7 @@ const submitForm = async () => {
 
 .icon {
     width: 2rem;
-    color: #d63830;
+    color: var(--primary);
     margin-right: 6px;
     vertical-align: middle;
 }

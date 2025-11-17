@@ -1,6 +1,6 @@
 <template>
   <header class="navbar" :class="{ hidden: isNavbarHidden }">
-    <!-- GÓRNA CZĘŚĆ -->
+  
     <div class="navbar-top">
       <RouterLink to="/" class="logo-link">
         <img src="/images/logo.png" alt="Logo" class="logo" />
@@ -19,11 +19,11 @@
             <span>+48 888 293 024</span>
           </div>
         </div>
-        <div class="info-tile">
+        <div @click="goToHash('form')" class="info-tile">
           <Mail class="icon" />
           <div>
             <strong>{{ langState.t.main.navbar.write }}</strong><br />
-            <span>contact@globaloffshore.pl</span>
+            <span>contact@globalonshore.pl</span>
           </div>
         </div>
         <div class="info-tile">
@@ -36,11 +36,11 @@
       </div>
     </div>
 
-    <!-- DÓŁ - MENU -->
+    
     <div class="navbar-bottom" v-show="isDesktop">
       <div class="bottom-inner">
         <nav class="nav-links">
-          <RouterLink to="/about">{{ langState.t.main.navbar.about }}</RouterLink>
+          
           <RouterLink to="/produkty">{{ langState.t.main.navbar.products }}</RouterLink>
           <RouterLink to="/kariera">{{ langState.t.main.navbar.carrers }}</RouterLink>
           <RouterLink to="/kontakt" class="nav-button"> {{ langState.t.main.navbar.contact }}</RouterLink>
@@ -161,7 +161,6 @@ onUnmounted(() => {
   transform: translateY(-100%);
 }
 
-/* GÓRA */
 .navbar-top {
   display: flex;
   justify-content: space-between;
@@ -169,7 +168,9 @@ onUnmounted(() => {
   padding: 1rem 4vw;
   background: white;
 }
-
+.logo-link {
+  margin-left: 2rem;
+}
 .logo {
   height: 60px;
 }
@@ -184,12 +185,13 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  cursor: pointer;
 }
 
 .info-tile .icon {
   width: 24px;
   height: 24px;
-  color: #8b1e1e;
+  color: var(--primary);
 }
 
 .info-tile strong {
@@ -202,7 +204,6 @@ onUnmounted(() => {
   color: #333;
 }
 
-/* DÓŁ */
 .navbar-bottom {
   position: relative;
   background-color: var(--primary);

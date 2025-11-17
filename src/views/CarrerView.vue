@@ -2,7 +2,7 @@
     <section class="career-section">
         <h2 class="section-title">{{ langState.t.main.careers.sectionTitle }}</h2>
         <div class="career-layout">
-            <!-- Lewa kolumna: lista stanowisk -->
+        
             <div class="job-list">
                 <div v-for="(job, index) in jobs" :key="index" class="job-tile"
                     :class="{ active: selectedIndex === index }" @click="selectJob(index)">
@@ -13,7 +13,7 @@
                     }}</RouterLink>
             </div>
 
-            <!-- Prawa kolumna: opis stanowiska -->
+         
             <transition name="fade-slide" mode="out-in">
                 <div class="job-description" :key="selectedJob.title">
                     <div>
@@ -80,19 +80,13 @@ const selectedJob = computed(() => jobs.value[selectedIndex.value])
 
 <style scoped>
 .career-section {
+    background: #f8f9fb;
     padding: 2rem;
     min-height: 110vh;
 }
 
-.section-title {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--redtitle);
-}
-
 .career-layout {
+    margin-top: 3rem;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
@@ -115,37 +109,41 @@ const selectedJob = computed(() => jobs.value[selectedIndex.value])
     cursor: pointer;
     border-radius: 8px;
     background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     transition: background 0.3s;
 }
 
 .job-tile:hover,
 .job-tile.active {
-    background: #ffecec;
-    border-color: #d63830;
+    background: #e9e9e9;
+    border-color: var(--primary);
 }
 
 .job-icon {
-    color: #d63830;
+    color: var(--primary);
     width: 28px;
     height: 28px;
 }
 
 .job-description {
     flex: 2;
-    background: #fafafa;
-    border-radius: 8px;
+    background: #fff;
+    border-radius: 12px;
     padding: 2rem;
     border: 1px solid #eee;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     width: 50vw;
 }
 
-.job-description h3 {
-    color: #d63830;
+.job-description h4 {
+    color: var(--primary);
+    font-size: 1.3rem;
 }
 
 .job-description ul {
-    margin: 0 0 1rem 1.2rem;
+    margin: 0 0 1.2rem 2rem;
     list-style-type: disc;
+    color: #555;
 }
 
 .apply-button {
@@ -164,7 +162,7 @@ const selectedJob = computed(() => jobs.value[selectedIndex.value])
 }
 
 .apply-button:hover {
-    background-color: #a7281f;
+    background-color: var(--primary);
 }
 
 .fade-slide-enter-active,

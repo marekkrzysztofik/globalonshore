@@ -90,12 +90,6 @@ onMounted(async () => {
   text-align: center;
 }
 
-.section-title {
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--redtitle);
-}
 
 .section-subtitle {
   font-size: 1.1rem;
@@ -116,7 +110,7 @@ onMounted(async () => {
   color: var(--title);
   padding: 2rem;
   border-radius: 12px;
-  border-top: 4px solid #d63830;
+  border-top: 4px solid var(--primary);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
@@ -180,7 +174,7 @@ onMounted(async () => {
   width: 36px;
   height: 36px;
   margin: 0 auto 1rem;
-  stroke: #d63830;
+  stroke: var(--primary);
 }
 
 .label {

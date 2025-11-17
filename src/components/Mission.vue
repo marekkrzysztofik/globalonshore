@@ -1,5 +1,4 @@
 <template>
-  <!-- Misja i wartości -->
   <div class="mission-section fade-in">
     
     <div class="mission-cards">

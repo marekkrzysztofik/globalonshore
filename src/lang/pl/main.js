@@ -10,13 +10,14 @@ export default {
   },
 
   heroTitle: 'Witamy w',
-  heroSubtitle: 'GLOBAL OFFSHORE',
-  heroDesc: 'GLOBAL Offshore dostarcza wysokiej jakości produkty OEM i usługi dla sektora morskiego i offshore na całym świecie. Nasz zespół tworzą doświadczeni specjaliści, pracujący z wykorzystaniem dedykowanego sprzętu i narzędzi.',
-  heroButton: 'Zgłoś sprawę',
-  heroProcessTitle: 'Zobacz projekty',
+  heroSubtitle: 'GLOBAL ONSHORE',
+  heroDesc: 'GLOBAL Onshore dostarcza specjalistyczne rozwiązania elektryczne i serwisowe dla sektora morskiego i offshore. Nasz zespół to doświadczeni inżynierowie, którzy realizują projekty z użyciem nowoczesnych narzędzi i technologii.',
+  heroButton: 'Zgłoś awarię',
+  heroProcessTitle: 'Zobacz realizacje',
 
-  aboutTitle: 'Twoje wsparcie w projektach morskich',
-  aboutSubtitle: 'Specjalizujemy się w hydraulice siłowej, instalacjach offshore oraz kompleksowej obsłudze projektów – od planowania po logistykę.',
+  aboutTitle: 'Eksperci w systemach elektrycznych na statkach',
+  aboutSubtitle: 'Specjalizujemy się w instalacjach elektrycznych, automatyce okrętowej oraz serwisie kompresorów – od projektowania po kompleksową obsługę i dostawy części.',
+
 
 
   message: 'Wiadomość',
@@ -37,38 +38,38 @@ export default {
   },
 
   ourOffer: {
-    title: 'Nasza oferta',
-    subtitle: 'Kompleksowe wsparcie od projektowania, przez serwis, aż po logistykę.',
-    groups: [
-      {
-        name: 'Produkcja',
-        src: '/images/produkcja.jpg',
-        services: [
-          { title: 'Zarządzanie projektami', description: 'Pełna kontrola i koordynacja projektów technicznych.' },
-          { title: 'Montaż mechaniczny', description: 'Profesjonalny montaż urządzeń i systemów.' },
-          { title: 'Instalacje hydrauliczne', description: 'Precyzyjne układy wysokociśnieniowe.' }
-        ]
-      },
-      {
-        name: 'Serwis',
-        src: '/images/serwis2.jpg',
-        services: [
-          { title: 'Inspekcje', description: 'Kontrola i ocena stanu technicznego urządzeń.' },
-          { title: 'Rozwiązywanie usterek', description: 'Szybka diagnostyka i naprawa.' },
-          { title: 'Testy i uruchomienia', description: 'Kompleksowe testy końcowe i certyfikacja.' }
-        ]
-      },
-      {
-        name: 'Sprzedaż i logistyka',
-        src: '/images/sprzedaz.jpg',
-        services: [
-          { title: 'Dostawy części', description: 'Komponenty OEM i zamienne.' },
-          { title: 'Logistyka i transport', description: 'Globalna obsługa dostaw i spedycji.' },
-          { title: 'Zakupy techniczne', description: 'Dobór i sourcing komponentów specjalistycznych.' }
-        ]
-      }
-    ]
-  },
+  title: 'Nasza oferta',
+  subtitle: 'Kompleksowe wsparcie w zakresie systemów elektrycznych i urządzeń okrętowych.',
+  groups: [
+    {
+      name: 'Instalacje elektryczne',
+      src: '/images/4.jpg',
+      services: [
+        { title: 'Projektowanie instalacji', description: 'Tworzenie schematów i dokumentacji elektrycznej dla statków.' },
+        { title: 'Sprzedaż komponentów elektrycznych', description: 'Dostawy rozdzielnic, przewodów i osprzętu elektrycznego.' },
+        { title: 'Automatyka i sterowanie', description: 'Integracja systemów automatyki i zabezpieczeń.' }
+      ]
+    },
+    {
+      name: 'Serwis i utrzymanie',
+      src: '/images/5.jpg',
+      services: [
+        { title: 'Inspekcje i przeglądy systemów', description: 'Regularna kontrola i okresowe przeglądy instalacji elektrycznych.' },
+        { title: 'Naprawy awaryjne', description: 'Szybka diagnostyka i usuwanie usterek.' },
+        { title: 'Testy i certyfikacja', description: 'Próby obciążeniowe i odbiory klasyfikacyjne.' }
+      ]
+    },
+    {
+      name: 'Kompresory i osprzęt',
+      src: '/images/bd.PNG',
+      services: [
+        { title: 'Sprzedaż kompresorów', description: 'Dobór i dostawa kompresorów okrętowych.' },
+        { title: 'Serwis i remonty', description: 'Konserwacja, naprawy i modernizacja kompresorów.' },
+        { title: 'Części zamienne', description: 'Dostawy oryginalnych i zamiennych komponentów.' }
+      ]
+    }
+  ]
+},
 
 
   projectsSection: {
@@ -95,7 +96,7 @@ Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`
         location: 'Zjednoczone Emiraty Arabskie',
         image: '/images/3.jpg'
       },
-       {
+      {
         title: 'Instalacja HPUwwww',
         description: 'Montaż hydraulicznej jednostki sterującej w środowisku offshore.',
         location: 'Norwegia',
@@ -124,7 +125,7 @@ Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`
 
 
   contactTitle: 'Kontakt',
-  contactDesc: 'Global Offshore – kompleksowe wsparcie projektów offshore na całym świecie.',
+  contactDesc: 'Global Onshore – kompleksowe wsparcie w rozwiązaniach elektrycznych i serwisowych na całym świecie.',
   departmentsTitle: 'Działy',
   production: 'Produkcja',
   service: 'Serwis',
@@ -149,7 +150,7 @@ Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`
   contactPage: {
     title: 'Skontaktuj się z nami',
     subtitle: 'Jesteśmy dostępni pod telefonem, mailem lub osobiście w naszej siedzibie.',
-    email: 'contact@globaloffshore.pl'
+    email: 'contact@globalonshore.pl'
   },
 
   careers: {

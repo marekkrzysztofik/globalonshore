@@ -4,7 +4,7 @@
 
     <form @submit.prevent="submitForm">
       <div class="form-grid">
-        <!-- Lewa kolumna -->
+       
         <div class="form-left">
           <label>
             {{ langState.t.main.applicationForm.name }}:
@@ -27,7 +27,7 @@
           </label>
         </div>
 
-        <!-- Prawa kolumna -->
+      
         <div class="form-right">
           <label>
             {{ langState.t.main.applicationForm.positionLabel }}:
