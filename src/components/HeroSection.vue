@@ -15,7 +15,6 @@
 import langState from '@/lang/langState'
 </script>
 <style scoped>
-
 .hero {
     margin-top: -80px;
     width: 100%;
@@ -37,7 +36,7 @@ import langState from '@/lang/langState'
 }
 
 .content {
-    position: absolute;
+    position: relative;
     left: 50px;
     top: 150px;
     max-width: 600px;
@@ -83,12 +82,17 @@ import langState from '@/lang/langState'
 }
 
 @media (max-width: 768px) {
+    .content {
+        width: 80%;
+    }
+
     .wave-divider {
         display: none;
     }
 
     .overlay {
-        height: 86.5%;
+        height: 87%;
     }
+
 }
 </style>

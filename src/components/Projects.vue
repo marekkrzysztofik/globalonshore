@@ -209,12 +209,8 @@ export default {
   cursor: pointer;
   transition: background-color 0.3s;
   display: flex;
-  /* NOWE */
   align-items: center;
-  /* CENTRUJ PION */
   justify-content: center;
-  /* CENTRUJ POZIOM */
-
 }
 
 .slider-arrow:hover {

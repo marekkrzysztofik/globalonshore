@@ -119,7 +119,6 @@ onMounted(async () => {
   transform: translateY(-4px);
 }
 
-/* Bounce effect */
 .value {
   font-size: 2rem;
   font-weight: bold;
@@ -145,7 +144,7 @@ onMounted(async () => {
   }
 }
 
-/* Draw icons – ALL SVG elements */
+
 ::v-deep(.icon path),
 ::v-deep(.icon line),
 ::v-deep(.icon polyline),
@@ -182,7 +181,7 @@ onMounted(async () => {
   color: var(--subtitle);
 }
 
-/* Responsive */
+
 @media (max-width: 1024px) {
   .stats-section {
     width: 90%;

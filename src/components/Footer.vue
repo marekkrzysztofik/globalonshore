@@ -144,7 +144,7 @@ if (typeof localStorage !== 'undefined') {
   border: none;
 }
 
-/* Dekoracje */
+
 .circle {
   position: absolute;
   border-radius: 50%;

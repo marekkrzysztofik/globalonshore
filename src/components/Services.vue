@@ -140,7 +140,7 @@ const groupedServices = computed(() =>
 }
 
 .service {
-  height: 130px;
+  min-height: 130px;
   margin-bottom: 1rem;
 }
 
@@ -164,7 +164,7 @@ const groupedServices = computed(() =>
   }
 }
 
-/* Responsive */
+
 @media (min-width: 768px) {
   .groups {
     grid-template-columns: repeat(2, 1fr);

@@ -45,22 +45,23 @@ import { HardHat, Wrench, Zap, Settings } from 'lucide-vue-next'
 import { useHead } from '@vueuse/head'
 
 useHead({
-     title: 'Oferty Pracy | Global Offshore',
+  title: 'Oferty Pracy | GLOBAL Onshore',
   meta: [
     {
       name: 'description',
-      content: 'Zobacz aktualne oferty pracy w firmie GLOBAL Offshore i aplikuj online.',
+      content: 'Zobacz aktualne oferty pracy w GLOBAL Onshore i aplikuj online. Poszukujemy specjalistów w zakresie instalacji elektrycznych i serwisu.',
     },
     {
       property: 'og:title',
-      content: 'Oferty pracy | GLOBAL Offshore',
+      content: 'Oferty pracy | GLOBAL Onshore',
     },
     {
       property: 'og:description',
-      content: 'Dołącz do naszego zespołu. Praca w środowisku offshore i inżynierii.',
-    },
-  ],
+      content: 'Dołącz do GLOBAL Onshore. Praca przy instalacjach elektrycznych, serwisie i projektach onshore/offshore.',
+    }
+  ]
 })
+
 const selectedIndex = ref(0)
 
 const selectJob = (index) => {

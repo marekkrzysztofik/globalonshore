@@ -35,7 +35,9 @@
         </div>
       </div>
       <div class="map-column">
-        <iframe v-if="cookiesAccepted" class="map-frame" src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d586.7139946208991!2d18.345530750137065!3d54.599088617689276!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fdbac61a9d94ff%3A0x5bac1961ab2c72b6!2sGniewowska%2012%2C%2084-240%20Reda!5e1!3m2!1sen!2spl!4v1752754899535!5m2!1sen!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe v-if="cookiesAccepted" class="map-frame"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d586.7139946208991!2d18.345530750137065!3d54.599088617689276!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fdbac61a9d94ff%3A0x5bac1961ab2c72b6!2sGniewowska%2012%2C%2084-240%20Reda!5e1!3m2!1sen!2spl!4v1752754899535!5m2!1sen!2spl"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     <FormView />
@@ -49,22 +51,23 @@ import FormView from '@/views/FormView.vue'
 import { useHead } from '@vueuse/head'
 
 useHead({
-  title: 'Kontakt | Global Offshore',
+  title: 'Kontakt | GLOBAL Onshore',
   meta: [
     {
       name: 'description',
-      content: 'Skontatuj się z nami!',
+      content: 'Skontaktuj się z GLOBAL Onshore – instalacje elektryczne, serwis i wsparcie projektów.',
     },
     {
       property: 'og:title',
-      content: 'Kontakt | GLOBAL Offshore',
+      content: 'Kontakt | GLOBAL Onshore',
     },
     {
       property: 'og:description',
-      content: 'Skontatuj się z nami!',
-    },
-  ],
+      content: 'Skontaktuj się z nami w sprawie instalacji elektrycznych, serwisu i projektów onshore/offshore.',
+    }
+  ]
 })
+
 
 let cookiesAccepted = false
 
@@ -153,6 +156,10 @@ if (typeof localStorage !== 'undefined') {
 }
 
 @media (max-width: 1024px) {
+  .contact-section {
+    width: 90%;
+  }
+
   .contact-layout {
     flex-direction: column;
   }

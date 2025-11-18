@@ -4,7 +4,7 @@
 
     <form @submit.prevent="submitForm">
       <div class="form-grid">
-     
+
         <div class="form-left">
           <label>
             {{ langState.t.main.reportForm.name }}:
@@ -27,7 +27,7 @@
           </label>
         </div>
 
-     
+
         <div class="form-right">
           <label>
             {{ langState.t.main.reportForm.typeLabel }}:
@@ -68,19 +68,21 @@
 import { useHead } from '@vueuse/head'
 
 useHead({
-  title: 'Zgłoś sprawę | Global Offshore',
+  title: 'Zgłoś sprawę | GLOBAL Onshore',
   meta: [
     {
       name: 'description',
-      content: 'Formularz zgłoszeniowy dla klientów Global Offshore – awarie, zamówienia i pytania. Szybki kontakt i możliwość załączenia zdjęć.'
+      content:
+        'Formularz zgłoszeniowy GLOBAL Onshore – awarie elektryczne, serwis, instalacje oraz zapytania projektowe. Szybki kontakt i możliwość załączenia zdjęć lub dokumentacji.'
     },
     {
       property: 'og:title',
-      content: 'Zgłoś sprawę | Global Offshore'
+      content: 'Zgłoś sprawę | GLOBAL Onshore'
     },
     {
       property: 'og:description',
-      content: 'Szybki formularz do zgłaszania awarii, zamówień i pytań. Dodaj zdjęcia i uzyskaj pomoc od Global Offshore.'
+      content:
+        'Zgłoś awarię, zamówienie serwisowe lub zapytanie dotyczące instalacji elektrycznych. Dołącz zdjęcia i uzyskaj wsparcie zespołu GLOBAL Onshore.'
     },
     {
       property: 'og:type',
@@ -88,10 +90,11 @@ useHead({
     },
     {
       property: 'og:url',
-      content: 'https://globaloffshore.pl/zgloszenie'
+      content: 'https://globalonshore.pl/zgloszenie'
     }
   ]
 })
+
 import { ref } from 'vue'
 import langState from '@/lang/langState'
 const CLOUD_NAME = 'dilgij9iq'

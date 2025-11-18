@@ -32,14 +32,31 @@ onMounted(async () => {
 })
 
 useHead({
-  title: 'Global Onshore – hydraulika siłowa i wsparcie projektów offshore',
+  title: 'GLOBAL Onshore – rozwiązania elektryczne i serwis dla sektora morskiego',
   meta: [
-    { name: 'description', content: "Specjalizujemy się w instalacjach offshore, hydraulice siłowej oraz sprzedaży części i komponentów. Kompleksowe wsparcie projektów – sprawdź naszą ofertę." },
-    { name: 'keywords', content: 'hydraulika siłowa, offshore, serwis, instalacje, projekty, global offshore' },
-    { property: 'og:title', content: 'Global Offshore – wsparcie projektów offshore' },
-    { property: 'og:description', content: 'Kompleksowe instalacje i serwis offshore – poznaj naszą ofertę.' },
-    { property: 'og:image', content: '/images/og-image.jpg' },
-    { property: 'og:url', content: 'https://globaloffshore.pl/' }
+    {
+      name: 'description',
+      content:
+        'GLOBAL Onshore dostarcza specjalistyczne rozwiązania elektryczne i serwisowe dla sektora morskiego i przemysłowego. Doświadczeni inżynierowie realizują projekty z użyciem nowoczesnych technologii.'
+    },
+    {
+      name: 'keywords',
+      content:
+        'GLOBAL Onshore, rozwiązania elektryczne, serwis elektryczny, sektor morski, offshore, onshore, instalacje przemysłowe, projekty elektryczne'
+    },
+    {
+      property: 'og:title',
+      content: 'GLOBAL Onshore – rozwiązania elektryczne i serwis przemysłowy'
+    },
+    {
+      property: 'og:description',
+      content:
+        'Specjalistyczne usługi elektryczne i serwisowe dla sektora morskiego i przemysłowego. Zespół doświadczonych inżynierów i nowoczesne technologie.'
+    },
+    {
+      property: 'og:url',
+      content: 'https://globalonshore.pl/'
+    }
   ]
 })
 </script>

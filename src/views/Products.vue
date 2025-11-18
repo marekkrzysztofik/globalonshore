@@ -34,7 +34,6 @@ import langState from '@/lang/langState'
 .header-section {
     position: relative;
     background-image: url('/images/products/ship.webp');
-    /* <- Zamień na właściwą nazwę */
     background-size: cover;
     background-position: center;
     height: 300px;

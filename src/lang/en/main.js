@@ -248,7 +248,7 @@ export default {
       { name: 'Flanges', image: '/images/products/flanges.webp' },
       { name: 'Pipes', image: '/images/products/pipes.webp' },
       { name: 'Hoses', image: '/images/products/hoses.webp' },
-      { name: 'Interpump', image: '/images/products/interpump.webp' }, // brand name unchanged
+      { name: 'Interpump', image: '/images/products/interpump.webp' }, 
       { name: 'Hose couplings', image: '/images/products/hose-couplings.webp' },
       { name: 'Machines', image: '/images/products/machines.webp' },
       { name: 'Valves', image: '/images/products/valves.webp' },

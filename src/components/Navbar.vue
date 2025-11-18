@@ -248,25 +248,7 @@ onUnmounted(() => {
   gap: 1rem;
 }
 
-.nav-links a,
-.services-btn {
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 0.95rem;
-  background-color: inherit;
-  border: none;
 
-}
-
-/*.services-btn {
-  background-color: inherit;
-  border: none;
-  color: white;
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
-} */
 
 .nav-button {
   display: flex;
@@ -279,7 +261,7 @@ onUnmounted(() => {
   border-radius: 24px;
   border: none;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -344,7 +326,7 @@ onUnmounted(() => {
   }
 }
 
-/* Mobile Menu Overlay */
+
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -373,7 +355,6 @@ onUnmounted(() => {
   font-weight: bold;
 }
 
-/* Transition */
 .slide-fade-enter-active,
 .slide-fade-leave-active {
   transition: all 0.4s ease;
