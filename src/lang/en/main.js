@@ -30,7 +30,7 @@ export default {
       years: 'Years on the market',
       countries: 'Countries',
       projects: 'Completed projects',
-      services: 'Offshore services'
+      services: 'Services'
     }
   },
 
@@ -40,7 +40,7 @@ export default {
     groups: [
       {
         name: 'Electrical installations',
-        src: '/images/elektryka1.jpg',
+        src: '/images/4.jpg',
         services: [
           { title: 'Installation design', description: 'Creating electrical diagrams and documentation for ships.' },
           { title: 'Cable assembly', description: 'Professional installation of cable routes and switchboards.' },
@@ -49,7 +49,7 @@ export default {
       },
       {
         name: 'Service and maintenance',
-        src: '/images/elektryka2.jpg',
+        src: '/images/5.jpg',
         services: [
           { title: 'System inspections', description: 'Regular inspections of ship electrical installations.' },
           { title: 'Emergency repairs', description: 'Quick diagnostics and fault removal.' },
@@ -58,7 +58,7 @@ export default {
       },
       {
         name: 'Compressors and equipment',
-        src: '/images/kompresory.jpg',
+          src: '/images/bd.PNG',
         services: [
           { title: 'Compressor sales', description: 'Selection and delivery of marine compressors.' },
           { title: 'Service and overhauls', description: 'Maintenance, repairs, and modernization of compressors.' },
@@ -68,50 +68,7 @@ export default {
     ]
   },
 
-  projectsSection: {
-    title: 'Projects and references',
-    subtitle: 'See selected projects from around the world.',
-    projects: [
-      {
-        title: 'MCG Gangway Project China',
-        description: `
-Since 2024 we have had the pleasure to participate as a member of the MacGregor team, preparing structures such as: GANGWAY (including a passenger lift inside the shaft) and COLIBRI CRANE installed on a wind farm service vessel, up to final HAT and SAT acceptance tests. 
-Scope of work: mechanical, hydraulic, and electrical.`,
-        location: 'China',
-        image: '/images/serwis2.jpg'
-      },
-      {
-        title: 'Platform modernization',
-        description: 'General overhaul of piping systems and actuators.',
-        location: 'Netherlands',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Logistics project',
-        description: 'Managing transport and customs clearance of system components.',
-        location: 'United Arab Emirates',
-        image: '/images/3.jpg'
-      },
-      {
-        title: 'HPU installation',
-        description: 'Assembly of a hydraulic power unit in an offshore environment.',
-        location: 'Norway',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Platform modernization',
-        description: 'General overhaul of piping systems and actuators.',
-        location: 'Netherlands',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Logistics project',
-        description: 'Managing transport and customs clearance of system components.',
-        location: 'United Arab Emirates',
-        image: '/images/3.jpg'
-      },
-    ]
-  },
+
 
   mapTitle: 'Completed projects and services worldwide',
   mapSubtitle: 'GLOBAL Offshore references in strategic offshore industry locations.',
@@ -126,7 +83,7 @@ Scope of work: mechanical, hydraulic, and electrical.`,
   companyTitle: 'Company info',
   about: {
     title: 'Who we are',
-    description: 'GLOBAL Offshore is a Polish company specializing in offshore and marine industry projects. Since 2018, we have been providing hydraulic, service, and logistics solutions for clients worldwide.',
+    description: 'GLOBAL Onshore is a Polish company specializing in offshore and marine industry projects. Since 2018, we have been providing hydraulic, service, and logistics solutions for clients worldwide.',
     values: [
       'Experienced team of engineers and technicians',
       'Own production and mobile service',

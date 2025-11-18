@@ -1,10 +1,10 @@
 <template>
   <section class="report-form-section">
-    <h2 class="title">{{ langState.t.main.applicationForm.title }}</h2>
+    <h2 class="section-title">{{ langState.t.main.applicationForm.title }}</h2>
 
     <form @submit.prevent="submitForm">
       <div class="form-grid">
-       
+
         <div class="form-left">
           <label>
             {{ langState.t.main.applicationForm.name }}:
@@ -27,7 +27,7 @@
           </label>
         </div>
 
-      
+
         <div class="form-right">
           <label>
             {{ langState.t.main.applicationForm.positionLabel }}:
@@ -149,12 +149,6 @@ const submitForm = async () => {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
 }
 
-.title {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  text-align: left;
-}
 
 .form-grid {
   display: flex;
@@ -220,13 +214,10 @@ textarea {
   padding-left: 1rem;
 }
 
-.image-preview a {
-  color: #d13c30;
-  text-decoration: underline;
-}
+
 
 .submit-btn {
-  background-color: #d13c30;
+  background-color: var(--primary);
   color: white;
   border: none;
   padding: 1rem 2rem;

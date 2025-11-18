@@ -1,7 +1,7 @@
 <template>
-  <HeroSection2 />
+  <HeroSection />
   <About />
-  <Services2 />
+  <Services />
   <ContactForm />
   <WhyUs />
   <OffshoreMap />
@@ -10,9 +10,8 @@
 export const prerender = true
 </script>
 <script setup>
-import HeroSection2 from '@/components/HeroSection2.vue'
-
-import Services2 from '@/components/Services2.vue'
+import HeroSection from '@/components/HeroSection.vue'
+import Services from '@/components/Services.vue'
 import WhyUs from '@/components/WhyUs.vue'
 import OffshoreMap from '@/components/OffshoreMap.vue'
 import ContactForm from '@/components/ContactForm.vue'

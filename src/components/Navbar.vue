@@ -56,8 +56,9 @@
     <transition name="slide-fade">
       <div class="mobile-menu" v-if="isMenuOpen && !isDesktop" @click.self="toggleMenu">
         <nav class="mobile-nav">
-          <RouterLink @click="toggleMenu" to="/about">{{ langState.t.main.navbar.about }}</RouterLink>
-          <RouterLink @click="toggleMenu" to="/produkty">{{ langState.t.main.navbar.products }}</RouterLink>
+          <a @click="goToHash('#services')">
+            {{ langState.t.main.navbar.services }}
+          </a>
           <RouterLink @click="toggleMenu" to="/kariera">{{ langState.t.main.navbar.carrers }}</RouterLink>
           <RouterLink @click="toggleMenu" to="/kontakt">{{ langState.t.main.navbar.contact }}</RouterLink>
           <button class="nav-button" @click="toggleLang">

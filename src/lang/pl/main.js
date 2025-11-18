@@ -18,6 +18,58 @@ export default {
   aboutTitle: 'Eksperci w systemach elektrycznych na statkach',
   aboutSubtitle: 'Specjalizujemy się w instalacjach elektrycznych, automatyce okrętowej oraz serwisie kompresorów – od projektowania po kompleksową obsługę i dostawy części.',
 
+  missionTitle: 'Nasze wartości',
+  missionPoints: [
+    {
+      title: 'Gwarancja Jakości',
+      text: 'Naszym głównym celem jest zapewnienie najwyższej jakości usług. Doświadczony zespół, know-how, sprawdzeni dostawcy.',
+      icon: 'CheckSquare',
+    },
+    {
+      title: 'Elastyczność',
+      text: 'Zapewniamy terminową realizację i szybką mobilizację zespołu. Dostosowujemy się do potrzeb projektów i dostarczamy szybkie rozwiązania.',
+      icon: 'Loader',
+    },
+    {
+      title: 'Satysfakcja Klienta',
+      text: 'Stawiamy na długofalowe relacje z klientami dzięki efektywności, konkurencyjnym cenom i profesjonalnej obsłudze.',
+      icon: 'Handshake',
+    },
+  ],
+
+  ourOffer: {
+    title: 'Nasza oferta',
+    subtitle: 'Kompleksowe wsparcie w zakresie systemów elektrycznych i urządzeń okrętowych.',
+    groups: [
+      {
+        name: 'Instalacje elektryczne',
+        src: '/images/4.jpg',
+        services: [
+          { title: 'Projektowanie instalacji', description: 'Tworzenie schematów i dokumentacji elektrycznej dla statków.' },
+          { title: 'Sprzedaż komponentów elektrycznych', description: 'Dostawy rozdzielnic, przewodów i osprzętu elektrycznego.' },
+          { title: 'Automatyka i sterowanie', description: 'Integracja systemów automatyki i zabezpieczeń.' }
+        ]
+      },
+      {
+        name: 'Serwis i utrzymanie',
+        src: '/images/5.jpg',
+        services: [
+          { title: 'Inspekcje i przeglądy systemów', description: 'Regularna kontrola i okresowe przeglądy instalacji elektrycznych.' },
+          { title: 'Naprawy awaryjne', description: 'Szybka diagnostyka i usuwanie usterek.' },
+          { title: 'Testy i certyfikacja', description: 'Próby obciążeniowe i odbiory klasyfikacyjne.' }
+        ]
+      },
+      {
+        name: 'Kompresory i osprzęt',
+        src: '/images/bd.PNG',
+        services: [
+          { title: 'Sprzedaż kompresorów', description: 'Dobór i dostawa kompresorów okrętowych.' },
+          { title: 'Serwis i remonty', description: 'Konserwacja, naprawy i modernizacja kompresorów.' },
+          { title: 'Części zamienne', description: 'Dostawy oryginalnych i zamiennych komponentów.' }
+        ]
+      }
+    ]
+  },
 
 
   message: 'Wiadomość',
@@ -35,86 +87,6 @@ export default {
       projects: 'Zrealizowane projekty',
       services: 'Serwisy offshore'
     }
-  },
-
-  ourOffer: {
-  title: 'Nasza oferta',
-  subtitle: 'Kompleksowe wsparcie w zakresie systemów elektrycznych i urządzeń okrętowych.',
-  groups: [
-    {
-      name: 'Instalacje elektryczne',
-      src: '/images/4.jpg',
-      services: [
-        { title: 'Projektowanie instalacji', description: 'Tworzenie schematów i dokumentacji elektrycznej dla statków.' },
-        { title: 'Sprzedaż komponentów elektrycznych', description: 'Dostawy rozdzielnic, przewodów i osprzętu elektrycznego.' },
-        { title: 'Automatyka i sterowanie', description: 'Integracja systemów automatyki i zabezpieczeń.' }
-      ]
-    },
-    {
-      name: 'Serwis i utrzymanie',
-      src: '/images/5.jpg',
-      services: [
-        { title: 'Inspekcje i przeglądy systemów', description: 'Regularna kontrola i okresowe przeglądy instalacji elektrycznych.' },
-        { title: 'Naprawy awaryjne', description: 'Szybka diagnostyka i usuwanie usterek.' },
-        { title: 'Testy i certyfikacja', description: 'Próby obciążeniowe i odbiory klasyfikacyjne.' }
-      ]
-    },
-    {
-      name: 'Kompresory i osprzęt',
-      src: '/images/bd.PNG',
-      services: [
-        { title: 'Sprzedaż kompresorów', description: 'Dobór i dostawa kompresorów okrętowych.' },
-        { title: 'Serwis i remonty', description: 'Konserwacja, naprawy i modernizacja kompresorów.' },
-        { title: 'Części zamienne', description: 'Dostawy oryginalnych i zamiennych komponentów.' }
-      ]
-    }
-  ]
-},
-
-
-  projectsSection: {
-    title: 'Realizacje i projekty',
-    subtitle: 'Zobacz wybrane realizacje z całego świata.',
-    projects: [
-      {
-        title: 'Projekt MCG Gangway China',
-        description: `
-Od 2024 roku mamy przyjemność brać udział jako członek zespołu firmy MacGregor, przygotowującego konstrukcje takie, jak: GANGWAY (w tym także winda osobowa wewnątrz szybu) oraz COLIBRI CRANE zainstalowane na jednostce do obsługi farm wiatrowych, do finalnych odbiorów HAT i SAT. 
-Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`,
-        location: 'Chiny',
-        image: '/images/serwis2.jpg'
-      },
-      {
-        title: 'Modernizacja platformy',
-        description: 'Generalny remont systemów rurowych i siłowników.',
-        location: 'Holandia',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Projekt logistyczny',
-        description: 'Zarządzanie transportem i odprawą elementów systemowych.',
-        location: 'Zjednoczone Emiraty Arabskie',
-        image: '/images/3.jpg'
-      },
-      {
-        title: 'Instalacja HPUwwww',
-        description: 'Montaż hydraulicznej jednostki sterującej w środowisku offshore.',
-        location: 'Norwegia',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Modernizacja platformyww',
-        description: 'Generalny remont systemów rurowych i siłowników.',
-        location: 'Holandia',
-        image: '/images/1.jpg'
-      },
-      {
-        title: 'Projekt logistycznywww',
-        description: 'Zarządzanie transportem i odprawą elementów systemowych.',
-        location: 'Zjednoczone Emiraty Arabskie',
-        image: '/images/3.jpg'
-      },
-    ]
   },
 
 
@@ -221,24 +193,7 @@ Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`
       }
     ]
   },
-  missionTitle: 'Nasze wartości',
-  missionPoints: [
-    {
-      title: 'Gwarancja Jakości',
-      text: 'Naszym głównym celem jest zapewnienie najwyższej jakości usług. Doświadczony zespół, know-how, sprawdzeni dostawcy.',
-      icon: 'CheckSquare',
-    },
-    {
-      title: 'Elastyczność',
-      text: 'Zapewniamy terminową realizację i szybką mobilizację zespołu. Dostosowujemy się do potrzeb projektów i dostarczamy szybkie rozwiązania.',
-      icon: 'Loader',
-    },
-    {
-      title: 'Satysfakcja Klienta',
-      text: 'Stawiamy na długofalowe relacje z klientami dzięki efektywności, konkurencyjnym cenom i profesjonalnej obsłudze.',
-      icon: 'Handshake',
-    },
-  ],
+
   reportForm: {
     title: 'Nowe zgłoszenie',
     name: 'Imię i nazwisko',
@@ -287,21 +242,5 @@ Zakres prac wykonywanych na projekcie: mechaniczny, hydrauliczny, elektryczny.`
     error: 'Coś poszło nie tak. Spróbuj ponownie później.'
   },
 
-  products: {
-    title: 'Nasze Produkty',
-    subtitle: 'Komponenty i urządzenia hydrauliczne najwyższej jakości',
-    productCategories: [
-      { name: 'Złączki typu bite', image: '/images/products/bite-type.webp' },
-      { name: 'Kołnierze', image: '/images/products/flanges.webp' },
-      { name: 'Rury', image: '/images/products/pipes.webp' },
-      { name: 'Węże', image: '/images/products/hoses.webp' },
-      { name: 'Interpump', image: '/images/products/interpump.webp' }, // zostawiam bez tłumaczenia, bo to marka
-      { name: 'Szybkozłącza do węży', image: '/images/products/hose-couplings.webp' },
-      { name: 'Maszyny', image: '/images/products/machines.webp' },
-      { name: 'Zawory', image: '/images/products/valves.webp' },
-      { name: 'Złączki JIC (stożkowe)', image: '/images/products/flare-fittings.webp' },
-      { name: 'Obejmy', image: '/images/products/clamps.webp' },
-    ]
-  },
 
 }

@@ -1,9 +1,6 @@
 <template>
   <section class="map-section">
     <h2 class="section-title">{{ langState.t.main.mapTitle }}</h2>
-    <p class="section-subtitle">
-      {{ langState.t.main.mapSubtitle }}
-    </p>
     <div id="chartdiv" class="map-container"></div>
   </section>
 </template>
@@ -135,7 +132,9 @@ onBeforeUnmount(() => {
   padding: 4rem 2rem;
   text-align: center;
 }
-
+.map-section h2 {
+  margin-bottom: 2rem;
+}
 
 .section-subtitle {
   font-size: 1.1rem;

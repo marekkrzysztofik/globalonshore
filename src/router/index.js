@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory, createMemoryHistory  } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ContactView from '@/views/ContactView.vue'
-import FormView from '@/views/FormView.vue'
+
 import CarrerView from '@/views/CarrerView.vue'
 import CookieInfo from '@/views/CookieInfo.vue'
 import CarrerForm from '@/views/CarrerForm.vue'
-import Products from '@/views/Products.vue'
+
 export const routes = [
   {
     path: '/',
@@ -16,16 +16,6 @@ export const routes = [
     path: '/kontakt',
     name: 'kontakt',
     component: ContactView,
-  },
-  {
-    path: '/zgloszenie',
-    name: 'form',
-    component: FormView,
-  },
-   {
-    path: '/produkty',
-    name: 'Products',
-    component: Products,
   },
   {
     path: '/aplikuj',
