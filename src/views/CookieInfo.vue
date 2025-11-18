@@ -4,7 +4,7 @@
     <div class="scrollable-content">
       <p>
         Niniejsza polityka określa zasady wykorzystywania plików cookies na stronie internetowej prowadzonej przez
-        <strong><a>GlobalOffshore Sp. z o.o.</a></strong>.
+        <strong><a>GlobalOnshore Sp. z o.o.</a></strong>.
       </p>
 
       <h3>Czym są pliki cookies?</h3>
@@ -49,7 +49,7 @@
       <h3>Kontakt:</h3>
       <p>
         W przypadku pytań dotyczących cookies prosimy o kontakt: 
-        <a>contact@globaloffshore.pl</a>
+        <a>contact@globalonshore.pl</a>
       </p>
     </div>
   </section>

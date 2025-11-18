@@ -1,5 +1,5 @@
 <template>
-    <section class="contact-section">
+    <section id="form" class="contact-section">
         <div class="contact-wrapper">
             <div class="form-card" :class="{ visible: formVisible }" v-intersect="() => (formVisible = true)">
                 <h2>{{ langState.t.main.navbar.write }}</h2>

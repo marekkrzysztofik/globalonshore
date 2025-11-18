@@ -1,5 +1,5 @@
 <template>
-  <section class="offer-section">
+  <section id="services" class="offer-section">
     <div class="bg-overlay"></div>
     <div class="container">
       <h2 class="title">{{ langState.t.main.ourOffer.title }}</h2>
@@ -27,7 +27,7 @@
 
 <script setup>
 import langState from '@/lang/langState'
-import { computed, ref, onMounted, onBeforeUnmount, nextTick } from 'vue'
+import { computed } from 'vue'
 import {
   CircuitBoard, Cable, Cpu,
   Search, Wrench, ShieldCheck,

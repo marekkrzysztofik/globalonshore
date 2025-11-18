@@ -1,6 +1,6 @@
 <template>
   <header class="navbar" :class="{ hidden: isNavbarHidden }">
-  
+
     <div class="navbar-top">
       <RouterLink to="/" class="logo-link">
         <img src="/images/logo.png" alt="Logo" class="logo" />
@@ -19,7 +19,7 @@
             <span>+48 888 293 024</span>
           </div>
         </div>
-        <div @click="goToHash('form')" class="info-tile">
+        <div @click="goToHash('#form')" class="info-tile">
           <Mail class="icon" />
           <div>
             <strong>{{ langState.t.main.navbar.write }}</strong><br />
@@ -36,13 +36,14 @@
       </div>
     </div>
 
-    
+
     <div class="navbar-bottom" v-show="isDesktop">
       <div class="bottom-inner">
         <nav class="nav-links">
-          
-          <RouterLink to="/produkty">{{ langState.t.main.navbar.products }}</RouterLink>
-          <RouterLink to="/kariera">{{ langState.t.main.navbar.carrers }}</RouterLink>
+          <button class="nav-button" @click="goToHash('#services')">
+            {{ langState.t.main.navbar.services }}
+          </button>
+          <RouterLink class="nav-button" to="/kariera">{{ langState.t.main.navbar.carrers }}</RouterLink>
           <RouterLink to="/kontakt" class="nav-button"> {{ langState.t.main.navbar.contact }}</RouterLink>
           <button class="nav-button" @click="toggleLang">
             <Globe class="icon" />
@@ -168,9 +169,11 @@ onUnmounted(() => {
   padding: 1rem 4vw;
   background: white;
 }
+
 .logo-link {
   margin-left: 2rem;
 }
+
 .logo {
   height: 60px;
 }
@@ -241,31 +244,47 @@ onUnmounted(() => {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
-.nav-links a {
+.nav-links a,
+.services-btn {
   color: white;
   font-weight: 600;
   text-decoration: none;
   font-size: 0.95rem;
+  background-color: inherit;
+  border: none;
+
 }
 
+/*.services-btn {
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+} */
 
 .nav-button {
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 0px;
   padding: 0.5rem 1.2rem;
   background-color: var(--primary);
   text-decoration: none;
   color: var(--white);
   border-radius: 24px;
-  border: solid white 1px;
+  border: none;
   font-weight: 600;
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.nav-links .nav-button:last-child {
+  border: solid white 1px;
 }
 
 .nav-button:hover {

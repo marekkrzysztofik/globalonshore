@@ -42,11 +42,6 @@ export const routes = [
     name: 'cookies',
     component: CookieInfo,
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/AboutView.vue'),
-  },
 ]
 const isClient = typeof window !== 'undefined'
 
